@@ -3,7 +3,7 @@
  * @author Socialbug Team <support@mlm-socialbug.com>
  * @copyright 2020 Km Innovations Inc DBA SocialBug
  * @license https://www.gnu.org/licenses/gpl-2.0.html
- */
+*/
  
 declare(strict_types=1);
 
