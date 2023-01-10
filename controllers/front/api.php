@@ -31,30 +31,30 @@ class SocialbugcrmApiModuleFrontController extends Controller
         return strcasecmp($headers['Api-Key'], $api_key) == 0;
     }
 
-    public function viewAccess()
-    {
-        return true;
-    }
+    // public function viewAccess()
+    // {
+    //     return true;
+    // }
 
-    public function postProcess()
-    {
-        return false;
-    }
+    // public function postProcess()
+    // {
+    //     return false;
+    // }
 
-    public function display()
-    {
-        return false;
-    }
+    // public function display()
+    // {
+    //     return false;
+    // }
 
-    public function setMedia($isNewTheme = false)
-    {
-        return false;
-    }
+    // public function setMedia($isNewTheme = false)
+    // {
+    //     return false;
+    // }
 
-    public function initHeader()
-    {
-        return false;
-    }
+    // public function initHeader()
+    // {
+    //     return false;
+    // }
 
     public function initContent()
     {
