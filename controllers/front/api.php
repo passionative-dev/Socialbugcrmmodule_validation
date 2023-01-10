@@ -46,7 +46,7 @@ class SocialbugcrmApiModuleFrontController extends Controller
         return false;
     }
 
-    public function setMedia()
+    public function setMedia($isNewTheme = false)
     {
         return false;
     }
