@@ -31,32 +31,32 @@ class SocialbugcrmApiModuleFrontController extends Controller
         return strcasecmp($headers['Api-Key'], $api_key) == 0;
     }
 
-    // public function viewAccess()
-    // {
-    //     return true;
-    // }
+    public function viewAccess($isNewTheme = false)
+    {
+        return true;
+    }
 
-    // public function postProcess()
-    // {
-    //     return false;
-    // }
+    public function postProcess($isNewTheme = false)
+    {
+        return false;
+    }
 
-    // public function display()
-    // {
-    //     return false;
-    // }
+    public function display($isNewTheme = false)
+    {
+        return false;
+    }
 
-    // public function setMedia($isNewTheme = false)
-    // {
-    //     return false;
-    // }
+    public function setMedia($isNewTheme = false)
+    {
+        return false;
+    }
 
-    // public function initHeader()
-    // {
-    //     return false;
-    // }
+    public function initHeader($isNewTheme = false)
+    {
+        return false;
+    }
 
-    public function initContent()
+    public function initContent($isNewTheme = false)
     {
         header('Content-Type: application/json; charset=utf-8');
 
